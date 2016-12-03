@@ -10,8 +10,8 @@ namespace CeasarCipher
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("A - Cipher");
-            Console.WriteLine("B - Decipher");
+            Console.WriteLine("A - Cipher!");
+            Console.WriteLine("B - Decipher!");
             var keyPress = Console.ReadKey(true).Key;
             int offset = 0;
             Console.Write("Enter the offset: ");
